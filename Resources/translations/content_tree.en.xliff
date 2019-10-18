@@ -12,7 +12,7 @@
         <note>key: collapse_all</note>
       </trans-unit>
       <trans-unit id="0cba8ae8f7a758a11886b6be4e7ce7e570063f8f" resname="expand_item.limit.message">
-        <source>Cannot load subitems for given location due to performance limits. You reached max tree depth.</source>
+        <source>Cannot load sub-items for this Location because you reached max tree depth.</source>
         <target state="new">Cannot load subitems for given location due to performance limits. You reached max tree depth.</target>
         <note>key: expand_item.limit.message</note>
       </trans-unit>
@@ -22,7 +22,7 @@
         <note>key: loading_more</note>
       </trans-unit>
       <trans-unit id="493d808c2fef6e72becec01dd34b5157a2fc3b51" resname="no_subitems">
-        <source>This location has no sub-items</source>
+        <source>This Location has no sub-items</source>
         <target state="new">This location has no sub-items</target>
         <note>key: no_subitems</note>
       </trans-unit>

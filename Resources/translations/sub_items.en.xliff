@@ -7,32 +7,32 @@
     </header>
     <body>
       <trans-unit id="99402f0925918d4d739c4c61a90182a733824fa5" resname="bulk_delete.error.message.nonusers">
-        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be sent to trash because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</source>
+        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be sent to trash because you do not have proper user permissions. {{ moreInformationLink }} Contact your Administrator.</source>
         <target state="new">%notDeletedCount% of the %totalCount% selected item(s) could not be sent to trash because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</target>
         <note>key: bulk_delete.error.message.nonusers</note>
       </trans-unit>
       <trans-unit id="c74a6c9cb4bb7cbcf4a652e03e4fe9344514f38f" resname="bulk_delete.error.message.users">
-        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be deleted because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</source>
+        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be deleted because you do not have proper user permissions. {{ moreInformationLink }} Contact your Administrator.</source>
         <target state="new">%notDeletedCount% of the %totalCount% selected item(s) could not be deleted because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</target>
         <note>key: bulk_delete.error.message.users</note>
       </trans-unit>
       <trans-unit id="a873d91c27d787399ce6dfe9a96c4541e718bacf" resname="bulk_delete.error.message.users_with_nonusers">
-        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be deleted or sent to trash because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</source>
+        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be deleted or sent to trash because you do not have proper user permissions. {{ moreInformationLink }} Contact your Administrator.</source>
         <target state="new">%notDeletedCount% of the %totalCount% selected item(s) could not be deleted or sent to trash because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</target>
         <note>key: bulk_delete.error.message.users_with_nonusers</note>
       </trans-unit>
       <trans-unit id="237dbc61da0079a4ad224512ef0678262f224ad9" resname="bulk_delete.error.modal.table_title.nonusers">
-        <source>Content item(s) cannot be sent to trash (%itemsCount%)</source>
+        <source>%itemsCount% Content item(s) cannot be sent to trash</source>
         <target state="new">Content item(s) cannot be sent to trash (%itemsCount%)</target>
         <note>key: bulk_delete.error.modal.table_title.nonusers</note>
       </trans-unit>
       <trans-unit id="d61a87779a34732e3d0cc00482224d99dd95676a" resname="bulk_delete.error.modal.table_title.users">
-        <source>User(s) cannot be deleted (%itemsCount%)</source>
+        <source>%itemsCount% User(s) cannot be deleted</source>
         <target state="new">User(s) cannot be deleted (%itemsCount%)</target>
         <note>key: bulk_delete.error.modal.table_title.users</note>
       </trans-unit>
       <trans-unit id="eb45209c9bfb54c01fe8e827d04058c301fc8173" resname="bulk_delete.error.modal.table_title.users_with_nonusers">
-        <source>Content item(s) cannot be deleted or sent to trash (%itemsCount%)</source>
+        <source>%itemsCount% Content item(s) cannot be deleted or sent to trash</source>
         <target state="new">Content item(s) cannot be deleted or sent to trash (%itemsCount%)</target>
         <note>key: bulk_delete.error.modal.table_title.users_with_nonusers</note>
       </trans-unit>
@@ -57,7 +57,7 @@
         <note>key: bulk_delete.popup.confirm.users_and_users_with_nonusers</note>
       </trans-unit>
       <trans-unit id="e98d09770399a6f52a15068a0573a18fc2b0b60d" resname="bulk_delete.popup.message.nonusers">
-        <source>Are you sure you want to send the selected content item(s) to trash?</source>
+        <source>Are you sure you want to send the selected Content item(s) to trash?</source>
         <target state="new">Are you sure you want to send the selected content item(s) to trash?</target>
         <note>key: bulk_delete.popup.message.nonusers</note>
       </trans-unit>
@@ -67,32 +67,32 @@
         <note>key: bulk_delete.popup.message.users</note>
       </trans-unit>
       <trans-unit id="a12f451cc6ee1e65a14e4accacba2fff815a67f9" resname="bulk_delete.popup.message.users_with_nonusers">
-        <source>Are you sure you want to delete the selected user(s) and send the other selected content item(s) to trash?</source>
+        <source>Are you sure you want to delete the selected user(s) and send the other selected Content item(s) to trash?</source>
         <target state="new">Are you sure you want to delete the selected user(s) and send the other selected content item(s) to trash?</target>
         <note>key: bulk_delete.popup.message.users_with_nonusers</note>
       </trans-unit>
       <trans-unit id="5464e305b394648af0e9dbd86bfd0ea5df8ed93c" resname="bulk_delete.success.message.nonusers">
-        <source>The selected content item(s) have been sent to trash.</source>
+        <source>Content item(s) sent to trash.</source>
         <target state="new">The selected content item(s) have been sent to trash.</target>
         <note>key: bulk_delete.success.message.nonusers</note>
       </trans-unit>
       <trans-unit id="d6c81bfffab0f8d928eb10911ca60a107c407989" resname="bulk_delete.success.message.users">
-        <source>The selected user(s) have been deleted.</source>
+        <source>User(s) deleted.</source>
         <target state="new">The selected user(s) have been deleted.</target>
         <note>key: bulk_delete.success.message.users</note>
       </trans-unit>
       <trans-unit id="93704c823e9663af7f4a89ec041673ce9d095a17" resname="bulk_delete.success.message.users_with_nonusers">
-        <source>The selected content item(s) have been sent to trash and the selected user(s) have been deleted.</source>
+        <source>Content item(s) sent to trash. User(s) deleted.</source>
         <target state="new">The selected content item(s) have been sent to trash and the selected user(s) have been deleted.</target>
         <note>key: bulk_delete.success.message.users_with_nonusers</note>
       </trans-unit>
       <trans-unit id="364a3498e021163497d9110380736b876beb326f" resname="bulk_move.error.message">
-        <source>%notMovedCount% of the %totalCount% selected item(s) could not be moved because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</source>
+        <source>%notMovedCount% of the %totalCount% selected item(s) could not be moved because you do not have proper user permissions. {{ moreInformationLink }} Contact your Administrator.</source>
         <target state="new">%notMovedCount% of the %totalCount% selected item(s) could not be moved because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</target>
         <note>key: bulk_move.error.message</note>
       </trans-unit>
       <trans-unit id="44a971e3ea91b95b9fbbd596f54ca632ef0865d4" resname="bulk_move.error.modal.table_title">
-        <source>Content items cannot be moved (%itemsCount%)</source>
+        <source>%itemsCount% Content items cannot be moved</source>
         <target state="new">Content items cannot be moved (%itemsCount%)</target>
         <note>key: bulk_move.error.modal.table_title</note>
       </trans-unit>
@@ -107,12 +107,12 @@
         <note>key: bulk_move.success.link_to_location</note>
       </trans-unit>
       <trans-unit id="ac326404ff958f8e3fa903df5750024602b812de" resname="bulk_move.success.message">
-        <source>The selected content item(s) have been sent to {{ locationLink }}</source>
+        <source>Content item(s) sent to {{ locationLink }}</source>
         <target state="new">The selected content item(s) have been sent to {{ locationLink }}</target>
         <note>key: bulk_move.success.message</note>
       </trans-unit>
       <trans-unit id="93850319ec8e493cc4d0b8bb1ae2a87cdf26d3d6" resname="bulk_request.error.message">
-        <source>An unexpected error occurred while deleting the content item(s). Please try again later.</source>
+        <source>An unexpected error occurred while deleting the Content item(s). Please try again later.</source>
         <target state="new">An unexpected error occurred while deleting the content item(s). Please try again later.</target>
         <note>key: bulk_request.error.message</note>
       </trans-unit>
@@ -242,7 +242,7 @@
         <note>key: trash_btn.label</note>
       </trans-unit>
       <trans-unit id="cd8466f8e727278543a7e1ded7f3a0c67243c276" resname="udw.choose_location.title">
-        <source>Choose location</source>
+        <source>Choose Location</source>
         <target state="new">Choose location</target>
         <note>key: udw.choose_location.title</note>
       </trans-unit>

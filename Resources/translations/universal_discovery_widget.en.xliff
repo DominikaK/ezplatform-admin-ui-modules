@@ -12,7 +12,7 @@
         <note>key: bookmarks.tab.label</note>
       </trans-unit>
       <trans-unit id="d60a9f5151198e2d342a7706a87cc94c6b99df0b" resname="bookmarks_table.no_bookmarks.message">
-        <source>No content items. Content items you bookmark will appear here.</source>
+        <source>You have no bookmarks yet. Your bookmarks will show up here.</source>
         <target state="new">No content items. Content items you bookmark will appear here.</target>
         <note>key: bookmarks_table.no_bookmarks.message</note>
       </trans-unit>
@@ -52,7 +52,7 @@
         <note>key: content_meta_preview.last_modified.label</note>
       </trans-unit>
       <trans-unit id="2faa37c3b3ca4cb7dff16ef157fd9a4ca4858f5b" resname="content_meta_preview.title">
-        <source>Content Meta Preview</source>
+        <source>Content metadata</source>
         <target state="new">Content Meta Preview</target>
         <note>key: content_meta_preview.title</note>
       </trans-unit>
@@ -62,7 +62,7 @@
         <note>key: content_meta_preview.translations.label</note>
       </trans-unit>
       <trans-unit id="c6b0a2b3a3cefe1deff4a144c540b0189f7b536a" resname="content_on_the_fly.choose_language_and_content_type.title">
-        <source>Choose Language and Content Type</source>
+        <source>Choose language and Content Type</source>
         <target state="new">Choose Language and Content Type</target>
         <note>key: content_on_the_fly.choose_language_and_content_type.title</note>
       </trans-unit>
@@ -72,17 +72,17 @@
         <note>key: content_on_the_fly.create_content.label</note>
       </trans-unit>
       <trans-unit id="3175cbfd789bf52f1924443c64ed542f2965f410" resname="content_on_the_fly.creating_content.title">
-        <source>Creating - %contentType% in %language%</source>
+        <source>Creating a(n) %contentTypeName% in %languageName%</source>
         <target state="new">Creating - %contentType% in %language%</target>
         <note>key: content_on_the_fly.creating_content.title</note>
       </trans-unit>
       <trans-unit id="b540f7e368b0536dff94f8ae6a003fbccc16ebc0" resname="content_on_the_fly.location_not_allowed.message">
-        <source>Sorry, but this location is not selectable.</source>
+        <source>This Location is not selectable.</source>
         <target state="new">Sorry, but this location is not selectable.</target>
         <note>key: content_on_the_fly.location_not_allowed.message</note>
       </trans-unit>
       <trans-unit id="326dd4779000122d000366eff63ad02a71d11e6e" resname="content_on_the_fly.no_permission.message">
-        <source>Sorry, but you don't have permission for this action. Please contact your site Admin.</source>
+        <source>You don't have permission for this action. Contact your site Administrator.</source>
         <target state="new">Sorry, but you don't have permission for this action. Please contact your site Admin.</target>
         <note>key: content_on_the_fly.no_permission.message</note>
       </trans-unit>
@@ -202,7 +202,7 @@
         <note>key: search.title</note>
       </trans-unit>
       <trans-unit id="0d754c552d7d2ac3880692ff18a1ba58ae28cb3f" resname="select_content.confirmed_items.title">
-        <source>Confirmed items</source>
+        <source>Selected items</source>
         <target state="new">Confirmed items</target>
         <note>key: select_content.confirmed_items.title</note>
       </trans-unit>
@@ -212,7 +212,7 @@
         <note>key: select_content.limit.label</note>
       </trans-unit>
       <trans-unit id="7f49fb26a42bf2c8f67a41c45c1871edf5f75ec7" resname="select_content.no_confirmed_content.title">
-        <source>No confirmed content yet</source>
+        <source>No content selected</source>
         <target state="new">No confirmed content yet</target>
         <note>key: select_content.no_confirmed_content.title</note>
       </trans-unit>

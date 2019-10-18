@@ -22,7 +22,7 @@
         <note>key: delete.label</note>
       </trans-unit>
       <trans-unit id="2b1c547a8eeb8b7c83a9580901c66193cbcb0eb9" resname="disallowed_content_type.message">
-        <source>You do not have permission to create this content item</source>
+        <source>You do not have permission to create this Content item</source>
         <target state="new">You do not have permission to create this content item</target>
         <note>key: disallowed_content_type.message</note>
       </trans-unit>
@@ -37,7 +37,7 @@
         <note>key: disallowed_type.message</note>
       </trans-unit>
       <trans-unit id="694f61c4eb35d09307bcf40e14159061c6ba1f35" resname="drop_action.message">
-        <source>Drag and drop your files on browser window or upload them</source>
+        <source>Drag your filesto the browser window or select them</source>
         <target>Drag and drop your files on browser window or upload them</target>
         <note>key: drop_action.message</note>
       </trans-unit>
